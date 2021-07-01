@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<ipxact:design xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:lattice="http://www.latticesemi.com/lattice" xmlns:lsccip="http://www.latticesemi.com/XMLSchema/Radiant/ip">
+    <ipxact:vendor>latticesemi.com</ipxact:vendor>
+    <ipxact:library>ip</ipxact:library>
+    <ipxact:name>p2b</ipxact:name>
+    <ipxact:version>1.1.1</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>lscc_pixel2byte_inst</ipxact:instanceName>
+            <ipxact:componentRef library="ip" name="pixel2byte" vendor="latticesemi.com" version="1.1.1">
+                <ipxact:configurableElementValues>
+                    <ipxact:configurableElementValue referenceId="FAMILY">LIFCL</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="TXTYPE">CSI2</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="DSI_FORMAT">0</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="DSI_MODE">NONBURST_PULSES</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="DATA_TYPE">RAW8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="DT">6'h2A</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="PIX_WIDTH">8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="DATA_WIDTH">16</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="NUM_TX_LANE">1</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="NUM_PIX_LANE">1</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="TX_GEAR">8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="MISCON">False</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="TXFR_SIG">True</ipxact:configurableElementValue>
+                </ipxact:configurableElementValues>
+            </ipxact:componentRef>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.rst_n_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="rst_n_i"/>
+                <ipxact:externalPortReference portRef="rst_n_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_clk_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_clk_i"/>
+                <ipxact:externalPortReference portRef="pix_clk_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.byte_clk_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="byte_clk_i"/>
+                <ipxact:externalPortReference portRef="byte_clk_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.vsync_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="vsync_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.hsync_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="hsync_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.de_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="de_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.fv_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="fv_i"/>
+                <ipxact:externalPortReference portRef="fv_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.lv_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="lv_i"/>
+                <ipxact:externalPortReference portRef="lv_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.dvalid_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="dvalid_i"/>
+                <ipxact:externalPortReference portRef="dvalid_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data9_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data9_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data8_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data8_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data7_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data7_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data6_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data6_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data5_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data5_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data4_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data4_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data3_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data3_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data2_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data2_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data1_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data1_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.pix_data0_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="pix_data0_i"/>
+                <ipxact:externalPortReference portRef="pix_data0_i">
+                    <ipxact:partSelect>
+                        <ipxact:range>
+                            <ipxact:left>7</ipxact:left>
+                            <ipxact:right>0</ipxact:right>
+                        </ipxact:range>
+                    </ipxact:partSelect>
+                </ipxact:externalPortReference>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.c2d_ready_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="c2d_ready_i"/>
+                <ipxact:externalPortReference portRef="c2d_ready_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.txfr_en_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="txfr_en_i"/>
+                <ipxact:externalPortReference portRef="txfr_en_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.vsync_start_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="vsync_start_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.vsync_end_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="vsync_end_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.hsync_start_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="hsync_start_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.hsync_end_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="hsync_end_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.fv_start_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="fv_start_o"/>
+                <ipxact:externalPortReference portRef="fv_start_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.fv_end_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="fv_end_o"/>
+                <ipxact:externalPortReference portRef="fv_end_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.lv_start_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="lv_start_o"/>
+                <ipxact:externalPortReference portRef="lv_start_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.lv_end_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="lv_end_o"/>
+                <ipxact:externalPortReference portRef="lv_end_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.odd_line_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="odd_line_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.txfr_req_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="txfr_req_o"/>
+                <ipxact:externalPortReference portRef="txfr_req_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.byte_en_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="byte_en_o"/>
+                <ipxact:externalPortReference portRef="byte_en_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.byte_data_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="byte_data_o"/>
+                <ipxact:externalPortReference portRef="byte_data_o">
+                    <ipxact:partSelect>
+                        <ipxact:range>
+                            <ipxact:left>7</ipxact:left>
+                            <ipxact:right>0</ipxact:right>
+                        </ipxact:range>
+                    </ipxact:partSelect>
+                </ipxact:externalPortReference>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>p2b.data_type_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="p2b" portRef="data_type_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+</ipxact:design>

@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v"
+-lib pmi -vhd "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.vhd"
+-ver "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v"
+-sdc  "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/constraints/p2b.ldc"
+-path "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b"
+-vh2008
+-top p2b
+-a "LIFCL"

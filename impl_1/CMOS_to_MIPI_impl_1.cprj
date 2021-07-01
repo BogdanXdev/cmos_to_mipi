@@ -1,0 +1,7 @@
+-ver "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v"
+-lib pmi -vhd "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.vhd"
+-lib "work" -vhd "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1/top_tx_dphy.vhd"
+-vh2008
+-top top_tx_dphy
+-isTop
+-a "LIFCL"

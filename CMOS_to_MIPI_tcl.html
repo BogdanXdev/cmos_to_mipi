@@ -1,0 +1,192 @@
+<HTML>
+<HEAD>
+<TITLE>Lattice TCL Log</TITLE>
+<link href="file:///C:/lscc/radiant/2.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn210609163913"></A><B><U><big>pn210609163913</big></U></B>
+#Start recording tcl command: 6/9/2021 16:03:53
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_create -name "CMOS_to_MIPI" -impl "impl_1" -dev LIFCL-40-7BG400I -performance "7_High-Performance_1.0V" -synthesis "lse"
+file copy -force -- "C:/code/fw_fpga_sensor_if/FW_FPGA_SENSOR_INTERFACE/source/hdl/top_tx_dphy.vhd" "C:/code/fw_fpga_sensor_if/FW_FPGA_SENSOR_INTERFACE/source/sim/top_tx_dphy_tb.vhd" "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1"
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1/top_tx_dphy.vhd" "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1/top_tx_dphy_tb.vhd"
+prj_save 
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/tx_dphy_csi2.ipx"
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b_csi2/p2b_csi2.ipx"
+prj_set_strategy_value -strategy Strategy1 lse_vhdl2008=True
+#Stop recording: 6/9/2021 16:39:13
+
+
+
+<A name="pn210615111932"></A><B><U><big>pn210615111932</big></U></B>
+#Start recording tcl command: 6/14/2021 09:42:50
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b_tb/p2b_tb.spf"
+#Stop recording: 6/15/2021 11:19:32
+
+
+
+<A name="pn210615155208"></A><B><U><big>pn210615155208</big></U></B>
+#Start recording tcl command: 6/15/2021 13:11:07
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+#Stop recording: 6/15/2021 15:52:08
+
+
+
+<A name="pn210616154244"></A><B><U><big>pn210616154244</big></U></B>
+#Start recording tcl command: 6/15/2021 16:12:46
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+#Stop recording: 6/16/2021 15:42:44
+
+
+
+<A name="pn210619140727"></A><B><U><big>pn210619140727</big></U></B>
+#Start recording tcl command: 6/16/2021 16:09:45
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+C:/code/fw_fpga_sensor_if/tx_dphy_ip_test
+tx_dphy_ip_test
+#Start recording tcl command: 6/19/2021 14:07:27
+#Project Location: C:/code/fw_fpga_sensor_if/tx_dphy_ip_test; Project name: tx_dphy_ip_test
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_save 
+prj_close
+prj_create -name "tx_dphy_ip_test" -impl "impl_1" -dev LIFCL-40-7BG400I -performance "7_High-Performance_1.0V" -synthesis "lse"
+prj_save 
+#Stop recording: 6/19/2021 14:07:27
+
+
+
+<A name="pn210619143405"></A><B><U><big>pn210619143405</big></U></B>
+#Start recording tcl command: 6/19/2021 14:31:31
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+#Stop recording: 6/19/2021 14:34:05
+
+
+
+<A name="pn210621102421"></A><B><U><big>pn210621102421</big></U></B>
+#Start recording tcl command: 6/19/2021 14:34:10
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+#Stop recording: 6/21/2021 10:24:21
+
+
+
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn210609163913>pn210609163913</A></LI>
+<LI><A href=#pn210615111932>pn210615111932</A></LI>
+<LI><A href=#pn210615155208>pn210615155208</A></LI>
+<LI><A href=#pn210616154244>pn210616154244</A></LI>
+<LI><A href=#pn210619140727>pn210619140727</A></LI>
+<LI><A href=#pn210619143405>pn210619143405</A></LI>
+<LI><A href=#pn210621102421>pn210621102421</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

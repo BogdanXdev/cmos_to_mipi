@@ -1,0 +1,10 @@
+#Start recording tcl command: 6/9/2021 16:03:53
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_create -name "CMOS_to_MIPI" -impl "impl_1" -dev LIFCL-40-7BG400I -performance "7_High-Performance_1.0V" -synthesis "lse"
+file copy -force -- "C:/code/fw_fpga_sensor_if/FW_FPGA_SENSOR_INTERFACE/source/hdl/top_tx_dphy.vhd" "C:/code/fw_fpga_sensor_if/FW_FPGA_SENSOR_INTERFACE/source/sim/top_tx_dphy_tb.vhd" "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1"
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1/top_tx_dphy.vhd" "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1/top_tx_dphy_tb.vhd"
+prj_save 
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/tx_dphy_csi2.ipx"
+prj_add_source "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b_csi2/p2b_csi2.ipx"
+prj_set_strategy_value -strategy Strategy1 lse_vhdl2008=True
+#Stop recording: 6/9/2021 16:39:13

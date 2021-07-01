@@ -1,0 +1,11 @@
+###File created by Lattice CPE. Do not modify.###
+create_clock -name {pix_clk_i} -period 5 [get_ports pix_clk_i] originating in instance p2b_raw8_1px_1txline was deleted and removed.
+
+create_clock -name {byte_clk_i} -period 5 [get_ports byte_clk_i] originating in instance p2b_raw8_1px_1txline was deleted and removed.
+
+create_clock -name {ref_clk_i} -period 10 [get_ports ref_clk_i] originating in instance tx_dphy_82mbps_raw8_1px_1txline was deleted and removed.
+
+create_clock -name {clk_p_io} -period 24.39 [get_ports clk_p_io] originating in instance tx_dphy_82mbps_raw8_1px_1txline was deleted and removed.
+
+create_clock -name {clk_n_io} -period 24.39 [get_ports clk_n_io] originating in instance tx_dphy_82mbps_raw8_1px_1txline was deleted and removed.
+

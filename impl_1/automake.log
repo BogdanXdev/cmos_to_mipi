@@ -1,0 +1,451 @@
+
+"C:/lscc/radiant/2.2/tcltk/windows/bin/tclsh" "CMOS_to_MIPI_impl_1_synthesize.tcl"
+
+cpe -f CMOS_to_MIPI_impl_1.cprj tx_dphy_csi2.cprj p2b.cprj -a LIFCL -o CMOS_to_MIPI_impl_1_cpe.ldc
+Analyzing Verilog file C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v. VERI-1482
+INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(1):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_addsub.v(40):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(2):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_add.v(50):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(3):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_complex_mult.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(4):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_counter.v(39):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(5):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_dpram.v(43):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(6):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_spram.v(42):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(7):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_rom.v(42):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(8):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_shift_reg.v(41):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(9):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_fifo.v(44):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(10):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_fifo_dc.v(47):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(11):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_mac.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(12):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_multaddsubsum.v(53):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(13):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_multaddsub.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(14):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_mult.v(51):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(15):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp.v(48):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(16):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_be.v(49):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(17):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_true.v(49):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(18):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(19):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq_be.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(20):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_rom.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(21):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_sub.v(50):analyzing included file . VERI-1328Analyzing Verilog file C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2.2/ispfpga/../cae_library/synthesis/verilog/LIFCL.v. VERI-1482
+Top module name (Verilog): tx_dphy_csi2
+INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(11):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018WARNING - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):expression size  truncated to fit in target size 62. VERI-1209INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018WARNING - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):expression size  truncated to fit in target size 32. VERI-1209INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018WARNING - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):expression size  truncated to fit in target size 8. VERI-1209INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):compiling module . VERI-1018WARNING - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):expression size  truncated to fit in target size 64. VERI-1209INFO - "C:/lscc/radiant/2.2/ispfpga/../cae_library/synthesis/verilog/LIFCL.v(623):compiling module . VERI-1018WARNING - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):net  does not have a driver. VDB-1002Last elaborated design is tx_dphy_csi2()
+Source compile complete.
+SDC Initialization for tx_dphy_csi2 finished.
+SDC Distribution for tx_dphy_csi2 finished.
+Analyzing Verilog file C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v. VERI-1482
+INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(1):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_addsub.v(40):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(2):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_add.v(50):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(3):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_complex_mult.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(4):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_counter.v(39):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(5):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_dpram.v(43):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(6):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_spram.v(42):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(7):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_rom.v(42):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(8):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_distributed_shift_reg.v(41):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(9):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_fifo.v(44):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(10):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_fifo_dc.v(47):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(11):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_mac.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(12):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_multaddsubsum.v(53):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(13):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_multaddsub.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(14):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_mult.v(51):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(15):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp.v(48):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(16):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_be.v(49):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(17):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_true.v(49):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(18):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(19):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq_be.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(20):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_rom.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(21):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_sub.v(50):analyzing included file . VERI-1328Analyzing Verilog file C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2.2/ispfpga/../cae_library/synthesis/verilog/LIFCL.v. VERI-1482
+Top module name (Verilog): p2b
+INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(11):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v(0):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_fifo_dc.v(52):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(57):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(248):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(2250):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(3054):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(5536):compiling module . VERI-1018INFO - "C:/lscc/radiant/2.2/ispfpga/../cae_library/synthesis/verilog/LIFCL.v(3998):compiling module . VERI-1018Removed duplicate sequential element wr_addr_arith_r(10 bit), because it is equivalent to wr_addr_r
+
+Removed duplicate sequential element rd_addr_arith_r(10 bit), because it is equivalent to rd_addr_r
+
+Last elaborated design is p2b()
+Source compile complete.
+SDC Initialization for p2b finished.
+SDC Distribution for p2b finished.
+INFO - Setting top_tx_dphy as top module.WARNING - No LDC/SDC file specified.Analyzing Verilog file c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v. VERI-1482
+INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(1):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_addsub.v(40):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(2):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_add.v(50):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(3):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_complex_mult.v(52):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(4):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_counter.v(39):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(5):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_dpram.v(43):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(6):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_spram.v(42):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(7):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_rom.v(42):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(8):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_shift_reg.v(41):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(9):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_fifo.v(44):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(10):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_fifo_dc.v(47):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(11):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_mac.v(52):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(12):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_multaddsubsum.v(53):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(13):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_multaddsub.v(52):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(14):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_mult.v(51):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(15):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp.v(48):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(16):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_be.v(49):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(17):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_true.v(49):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(18):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(19):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq_be.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(20):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_rom.v(45):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(21):analyzing included file . VERI-1328INFO - "C:/lscc/radiant/2.2/ip/pmi/pmi_sub.v(50):analyzing included file . VERI-1328Analyzing Verilog file tx_dphy_csi2.v. VERI-1482
+Analyzing Verilog file p2b.v. VERI-1482
+Analyzing VHDL file c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd. VHDL-1481
+Analyzing VHDL file c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd
+
+INFO - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd(5):analyzing entity . VHDL-1012INFO - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd(24):analyzing architecture . VHDL-1010INFO - The default VHDL library search path is now "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1". VHDL-1504Top module language type = VHDL.
+unit top_tx_dphy is not yet analyzed. VHDL-1485
+unit top_tx_dphy is not yet analyzed. VHDL-1485
+Top module name (VHDL, mixed language): top_tx_dphy
+Source compile complete.
+Starting IP constraint check for p2b.
+WARNING - Constraint "create_clock is not propagated to top level due to it's type. Please analyze and define on top level objects.WARNING - Constraint "create_clock is not propagated to top level due to it's type. Please analyze and define on top level objects.Starting IP constraint check for tx_dphy_csi2.
+WARNING - Constraint "create_clock is not propagated to top level due to it's type. Please analyze and define on top level objects.WARNING - Constraint "create_clock is not propagated to top level due to it's type. Please analyze and define on top level objects.WARNING - Constraint "create_clock is not propagated to top level due to it's type. Please analyze and define on top level objects.Writing output files.
+CPE Completed. CMOS_to_MIPI_impl_1_cpe.ldc and CPEReport.txt produced.
+
+
+synthesis -f CMOS_to_MIPI_impl_1_lattice.synproj
+synthesis:  version Radiant Software (64-bit) 2.2.0.97.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Sat Jun 19 13:59:37 2021
+
+
+Command Line:  C:\lscc\radiant\2.2\ispfpga\bin\nt64\synthesis.exe -f CMOS_to_MIPI_impl_1_lattice.synproj -gui -msgset C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/promote.xml 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is LIFCL.
+The -t option is CABGA400.
+The -sp option is 7_High-Performance_1.0V.
+The -p option is LIFCL-40.
+                                                          
+
+
+##########################################################
+
+
+### Lattice Family     : LIFCL
+
+
+### Device             : LIFCL-40
+
+
+### Package            : CABGA400
+
+
+### Performance Grade  : 7_High-Performance_1.0V
+
+
+                                                         
+
+
+INFO - User-Selected Strategy SettingsOptimization goal = Timing
+Top-level module name = top_tx_dphy.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = yes
+Output HDL file name = CMOS_to_MIPI_impl_1.vm.
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-sdc option: SDC file input is CMOS_to_MIPI_impl_1_cpe.ldc.
+Hardtimer checking is enabled (default). The -dt option is not used.
+-vh2008
+
+-path C:/code/fw_fpga_sensor_if/CMOS_to_MIPI (searchpath added)
+-path C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1 (searchpath added)
+-path C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b (searchpath added)
+-path C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2 (searchpath added)
+-path C:/lscc/radiant/2.2/ispfpga/je5d00/data (searchpath added)
+Mixed language design
+Verilog design file = C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v
+Verilog design file = C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/tx_dphy_csi2/rtl/tx_dphy_csi2.v
+Verilog design file = C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/p2b/rtl/p2b.v
+VHDL library = pmi
+VHDL design file = C:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.vhd
+VHDL library = work
+VHDL design file = C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/source/impl_1/top_tx_dphy.vhd
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v. VERI-1482
+INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(1):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_addsub.v(40):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(2):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_add.v(50):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(3):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_complex_mult.v(52):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(4):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_counter.v(39):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(5):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_dpram.v(43):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(6):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_spram.v(42):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(7):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_rom.v(42):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(8):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_distributed_shift_reg.v(41):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(9):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_fifo.v(44):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(10):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_fifo_dc.v(47):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(11):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_mac.v(52):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(12):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_multaddsubsum.v(53):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(13):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_multaddsub.v(52):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(14):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_mult.v(51):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(15):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp.v(48):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(16):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_be.v(49):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(17):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_ram_dp_true.v(49):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(18):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq.v(45):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(19):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_ram_dq_be.v(45):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(20):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_rom.v(45):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.v(21):analyzing included file . VERI-1328INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_sub.v(50):analyzing included file . VERI-1328Analyzing Verilog file c:/code/fw_fpga_sensor_if/cmos_to_mipi/tx_dphy_csi2/rtl/tx_dphy_csi2.v. VERI-1482
+Analyzing Verilog file c:/code/fw_fpga_sensor_if/cmos_to_mipi/p2b/rtl/p2b.v. VERI-1482
+Analyzing VHDL file c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.vhd. VHDL-1481
+Analyzing VHDL file c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.vhd
+
+INFO - "c:/lscc/radiant/2.2/ip/pmi/pmi_lifcl.vhd(4):analyzing package . VHDL-1014Analyzing VHDL file c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd. VHDL-1481
+Analyzing VHDL file c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd
+
+INFO - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd(5):analyzing entity . VHDL-1012INFO - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/source/impl_1/top_tx_dphy.vhd(24):analyzing architecture . VHDL-1010INFO - The default VHDL library search path is now "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1". VHDL-1504Top module language type = VHDL.
+unit top_tx_dphy is not yet analyzed. VHDL-1485
+unit top_tx_dphy is not yet analyzed. VHDL-1485
+unit top_tx_dphy is not yet analyzed. VHDL-1485
+Top module name (VHDL, mixed language): top_tx_dphy
+                                                         
+
+
+### Number of Logic Cells: 32256
+
+
+### Number of RAM Blocks: 84
+
+
+### Number of DSP Blocks: 462
+
+
+### Number of PLLs: 3
+
+
+### Number of IO Pins: 217
+
+
+##########################################################
+
+
+                                                         
+
+
+WARNING - Bit 0 of Register byte_data_o is stuck at ZeroWARNING - Bit 1 of Register byte_data_o is stuck at ZeroWARNING - Bit 2 of Register byte_data_o is stuck at ZeroWARNING - Bit 3 of Register byte_data_o is stuck at ZeroWARNING - Bit 4 of Register byte_data_o is stuck at ZeroWARNING - Bit 5 of Register byte_data_o is stuck at ZeroWARNING - Bit 6 of Register byte_data_o is stuck at ZeroWARNING - Bit 7 of Register byte_data_o is stuck at ZeroWARNING - Bit 8 of Register byte_data_o is stuck at ZeroWARNING - Bit 9 of Register byte_data_o is stuck at ZeroWARNING - Bit 10 of Register byte_data_o is stuck at ZeroWARNING - Bit 11 of Register byte_data_o is stuck at ZeroWARNING - Bit 12 of Register byte_data_o is stuck at ZeroWARNING - Bit 13 of Register byte_data_o is stuck at ZeroWARNING - Bit 14 of Register byte_data_o is stuck at ZeroWARNING - Bit 15 of Register byte_data_o is stuck at ZeroWARNING - Bit 16 of Register byte_data_o is stuck at ZeroWARNING - Bit 17 of Register byte_data_o is stuck at ZeroWARNING - Bit 18 of Register byte_data_o is stuck at ZeroWARNING - Bit 19 of Register byte_data_o is stuck at ZeroWARNING - Bit 20 of Register byte_data_o is stuck at ZeroWARNING - Bit 21 of Register byte_data_o is stuck at ZeroWARNING - Bit 22 of Register byte_data_o is stuck at ZeroWARNING - Bit 23 of Register byte_data_o is stuck at ZeroWARNING - Bit 24 of Register byte_data_o is stuck at ZeroWARNING - Bit 25 of Register byte_data_o is stuck at ZeroWARNING - Bit 26 of Register byte_data_o is stuck at ZeroWARNING - Bit 27 of Register byte_data_o is stuck at ZeroWARNING - Bit 28 of Register byte_data_o is stuck at ZeroWARNING - Bit 29 of Register byte_data_o is stuck at ZeroWARNING - Bit 30 of Register byte_data_o is stuck at ZeroWARNING - Bit 31 of Register byte_data_o is stuck at ZeroWARNING - Bit 32 of Register byte_data_o is stuck at ZeroWARNING - Bit 33 of Register byte_data_o is stuck at ZeroWARNING - Bit 34 of Register byte_data_o is stuck at ZeroWARNING - Bit 35 of Register byte_data_o is stuck at ZeroWARNING - Bit 36 of Register byte_data_o is stuck at ZeroWARNING - Bit 37 of Register byte_data_o is stuck at ZeroWARNING - Bit 38 of Register byte_data_o is stuck at ZeroWARNING - Bit 39 of Register byte_data_o is stuck at ZeroWARNING - Bit 40 of Register byte_data_o is stuck at ZeroWARNING - Bit 41 of Register byte_data_o is stuck at ZeroWARNING - Bit 42 of Register byte_data_o is stuck at ZeroWARNING - Bit 43 of Register byte_data_o is stuck at ZeroWARNING - Bit 44 of Register byte_data_o is stuck at ZeroWARNING - Bit 45 of Register byte_data_o is stuck at ZeroWARNING - Bit 46 of Register byte_data_o is stuck at ZeroWARNING - Bit 47 of Register byte_data_o is stuck at ZeroWARNING - Bit 48 of Register byte_data_o is stuck at ZeroWARNING - Bit 49 of Register byte_data_o is stuck at ZeroWARNING - Bit 50 of Register byte_data_o is stuck at ZeroWARNING - Bit 51 of Register byte_data_o is stuck at ZeroWARNING - Bit 52 of Register byte_data_o is stuck at ZeroWARNING - Bit 53 of Register byte_data_o is stuck at ZeroWARNING - Bit 54 of Register byte_data_o is stuck at ZeroWARNING - Bit 55 of Register byte_data_o is stuck at ZeroWARNING - Bit 0 of Register ecc_r is stuck at ZeroWARNING - Bit 1 of Register ecc_r is stuck at ZeroWARNING - Bit 0 of Register ecc_r1 is stuck at ZeroWARNING - Bit 1 of Register ecc_r1 is stuck at ZeroWARNING - Bit 0 of Register ecc_r2 is stuck at ZeroWARNING - Bit 1 of Register ecc_r2 is stuck at ZeroWARNING - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):net  does not have a driver. VDB-1002WARNING - I/O Port encrypted_port 's net has no driver and is unused.######## Missing driver on net encrypted_port. Patching with GND.
+######## Missing driver on net encrypted_port. Patching with GND.
+WARNING - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):Register  is stuck at Zero. VDB-5013INFO - Extracted state machine for register 'encrypted_netlist' with one-hot encodingState machine has 9 reachable states with original encodings of:
+
+ 0000 
+
+ 0001 
+
+ 0010 
+
+ 0011 
+
+ 0100 
+
+ 0101 
+
+ 0110 
+
+ 0111 
+
+ 1000 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 000000001
+
+ 0001 -> 000000010
+
+ 0010 -> 000000100
+
+ 0011 -> 000001000
+
+ 0100 -> 000010000
+
+ 0101 -> 000100000
+
+ 0110 -> 001000000
+
+ 0111 -> 010000000
+
+ 1000 -> 100000000
+
+INFO - Extracted state machine for register 'encrypted_netlist' with one-hot encodingState machine has 8 reachable states with original encodings of:
+
+ 0000 
+
+ 0001 
+
+ 0010 
+
+ 0011 
+
+ 0100 
+
+ 0111 
+
+ 1000 
+
+ 1001 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 00000001
+
+ 0001 -> 00000010
+
+ 0010 -> 00000100
+
+ 0011 -> 00001000
+
+ 0100 -> 00010000
+
+ 0111 -> 00100000
+
+ 1000 -> 01000000
+
+ 1001 -> 10000000
+
+INFO - Extracted state machine for register 'encrypted_netlist' with one-hot encodingState machine has 12 reachable states with original encodings of:
+
+ 000000 
+
+ 000001 
+
+ 000101 
+
+ 001001 
+
+ 001101 
+
+ 010001 
+
+ 011000 
+
+ 011001 
+
+ 011010 
+
+ 100001 
+
+ 100010 
+
+ 100011 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 000000 -> 000000000001
+
+ 000001 -> 000000000010
+
+ 000101 -> 000000000100
+
+ 001001 -> 000000001000
+
+ 001101 -> 000000010000
+
+ 010001 -> 000000100000
+
+ 011000 -> 000001000000
+
+ 011001 -> 000010000000
+
+ 011010 -> 000100000000
+
+ 100001 -> 001000000000
+
+ 100010 -> 010000000000
+
+ 100011 -> 100000000000
+
+
+
+
+WARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 6 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/clk_curstate_r_FSM is stuck at ZeroWARNING - Bit 7 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/pkt_curst_r_FSM is stuck at ZeroWARNING - Bit 11 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/pkt_curst_r_FSM is stuck at ZeroWARNING - "c:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(2358):Register  clock is stuck at Zero. VDB-5035WARNING - Bit 0 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 1 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 2 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 3 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 4 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 5 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 6 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 7 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 8 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at ZeroWARNING - Bit 9 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_e2 is stuck at OneWARNING - "c:/lscc/radiant/2.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v(2330):Register  clock is stuck at Zero. VDB-5035WARNING - "c:/code/fw_fpga_sensor_if/cmos_to_mipi/tx_dphy_csi2/rtl/tx_dphy_csi2.v(0):Register  clock is stuck at Zero. VDB-5035WARNING - Bit 0 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 1 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 2 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 3 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 4 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 5 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 6 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 7 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 8 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at ZeroWARNING - Bit 9 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_e2 is stuck at OneWARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_e2 is stuck at OneWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_e2 is stuck at OneWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_e2 is stuck at OneWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_e2 is stuck at OneWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_e2 is stuck at OneWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_e2 is stuck at OneWARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 6 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 7 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 8 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 9 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 10 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 11 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 12 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 13 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 14 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at ZeroWARNING - Bit 15 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/sub_448_sub_7_e2 is stuck at OneWARNING - Bit 0 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 1 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 2 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 3 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 4 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 5 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 6 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 7 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 8 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 9 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_e2 is stuck at OneWARNING - Bit 1 of Register dt_valid_reg is stuck at ZeroWARNING - Bit 3 of Register dt_valid_reg is stuck at ZeroWARNING - Bit 0 of Register vc_valid_reg is stuck at ZeroWARNING - Bit 1 of Register vc_valid_reg is stuck at ZeroWARNING - Bit 0 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 1 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 2 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 3 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 4 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 5 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 7 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 9 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 10 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 11 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 12 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 13 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 14 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 15 of Register wc_valid_reg is stuck at ZeroWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/dt_r0 is stuck at ZeroWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/dt_r0 is stuck at ZeroWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/dt_r1 is stuck at ZeroWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/dt_r1 is stuck at Zero################### Mapped 40 registers to 2 RAM. ##################
+WARNING - Removing unused instance . VDB-5034WARNING - Removing unused instance byte_data_reg_1d_3. VDB-5034WARNING - Removing unused instance byte_data_reg_1d_2. VDB-5034WARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 6 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 7 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 8 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 9 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 10 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 11 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 12 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 13 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 14 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 15 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 0 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 1 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 2 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 3 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 4 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 5 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 6 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 7 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 8 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 9 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 6 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 7 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 8 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 9 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 10 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 11 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 12 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 13 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 14 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 15 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/payload_cnt_r_e2 is stuck at OneWARNING - Bit 0 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 1 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 2 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 3 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 4 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 5 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 6 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 7 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 8 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 9 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/wr_addr_r_9__I_0_3_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 6 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 7 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 8 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 9 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 10 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 11 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 12 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 13 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 14 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 15 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_226_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/TX_GLOBAL_OPERATON.u_lscc_tx_global_operation/u_lscc_lp_hs_dly_ctrl/sub_98_add_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 0 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 1 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 2 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 3 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 4 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 5 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 6 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 7 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 8 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at ZeroWARNING - Bit 9 of Register \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/rd_addr_r_9__I_0_2_add_12_add_12_add_12_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 0 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 1 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 2 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 3 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 4 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 5 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 6 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 7 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 8 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 9 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 10 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 11 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 12 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 13 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 14 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - Bit 15 of Register \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/GEN_PKT_FORMAT_ON.NOCIL_PKT_FORMAT.u_lscc_pkt_formatter/CSI2_FORMAT_DATA.ONE_LANE.lscc_pkt_header_csi2_1lane_inst/u_lscc_crc16/sub_14_add_2_add_12_add_12_add_12_e2 is stuck at OneWARNING - I/O Port encrypted_port 's net has no driver and is unused.WARNING - Skipping pad insertion on encrypted_port due to black_box_pad_pin attribute.WARNING - Skipping pad insertion on encrypted_port due to black_box_pad_pin attribute.WARNING - Skipping pad insertion on encrypted_port due to black_box_pad_pin attribute.WARNING - Skipping pad insertion on encrypted_port due to black_box_pad_pin attribute.Optimized async. reset : \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/reset_n_N_62 on data cone feeding flop : 
+
+
+ \p2b_raw8_1px_1txline/lscc_pixel2byte_inst/pixel2byte_inst/genblk2.pixel2byte_inst/genblk3.pix2csi_raw8_inst/genblk1.genblk1.pix2csi_raw8_pix1_txl1_inst/async_fifo_8x8_inst0/pmi_fifo_dc_inst/u_fifo0/fifo_dc0/_FABRIC.u_fifo/full_ext_r
+
+
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+######## GSR will not be inferred because the Hardtimer IP is present.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Duplicate register/latch removal. encrypted_netlist is a one-to-one match with encrypted_netlist.
+Initializing timer
+Starting design annotation....
+Skipping device clock for \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/u_mipi_wrapper_tx/MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx/UTWDCKHS
+User defined clock being used
+WARNING - "TheWARNING - "The
+Starting full timing analysis...
+Worst slack in design -4517
+Initializing timer
+Starting design annotation....
+Skipping device clock for \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/u_mipi_wrapper_tx/MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx/UTWDCKHS
+User defined clock being used
+WARNING - "TheWARNING - "The
+Starting full timing analysis...
+Worst slack in design -3181
+Initializing timer
+Starting design annotation....
+Skipping device clock for \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/u_mipi_wrapper_tx/MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx/UTWDCKHS
+User defined clock being used
+WARNING - "TheWARNING - "The
+Starting full timing analysis...
+Worst slack in design -3857
+Initializing timer
+Starting design annotation....
+Skipping device clock for \tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/u_mipi_wrapper_tx/MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx/UTWDCKHS
+User defined clock being used
+WARNING - "TheWARNING - "The
+Starting full timing analysis...
+Worst slack in design -3857
+WARNING - Removing unused instance GSR_INST. VDB-5034
+################### Begin Area Report (top_tx_dphy)######################
+Number of register bits => 373 of 32256 (1 % )
+CCU2 => 43
+DPHY => 1
+FD1P3BX => 34
+FD1P3DX => 339
+GSR => 1
+IB => 12
+LUT4 => 390
+OB => 1
+PDP16K => 1
+SPR16X4 => 2
+WIDEFN9 => 2
+################### End Area Report ##################
+Number of odd-length carry chains : 0
+Number of even-length carry chains : 6
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : tx_dphy_82mbps_raw8_1px_1txline/lscc_dphy_tx_inst/u_lscc_dphy_tx_core/u_mipi_wrapper_tx/byte_clk, loads : 322
+  Net : ref_px_clk_i_c, loads : 57
+Clock Enable Nets
+Number of Clock Enables: 14
+Top 10 highest fanout Clock Enables:
+  Net : VCC_net, loads : 31
+  Net : secured_path.secured_net, loads : 25
+  Net : secured_path.secured_net, loads : 22
+  Net : secured_path.secured_net, loads : 16
+  Net : secured_path.secured_net, loads : 14
+  Net : secured_path.secured_net, loads : 8
+  Net : secured_path.secured_net, loads : 6
+  Net : secured_path.secured_net, loads : 6
+  Net : secured_path.secured_net, loads : 3
+  Net : byte_clk_enable_17, loads : 2
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : VCC_net, loads : 720
+  Net : secured_path.secured_net, loads : 222
+  Net : secured_path.secured_net, loads : 131
+  Net : secured_path.secured_net, loads : 31
+  Net : secured_path.secured_net, loads : 28
+  Net : secured_path.secured_net, loads : 25
+  Net : byte_data_en, loads : 24
+  Net : secured_path.secured_net, loads : 22
+  Net : secured_path.secured_net, loads : 22
+  Net : secured_path.secured_net, loads : 20
+################### End Clock Report ##################
+
+Peak Memory Usage: 268 MB
+
+--------------------------------------------------------------
+Total CPU Time: 7 secs 
+Total REAL Time: 7 secs 
+--------------------------------------------------------------
+
+
+postsyn -a LIFCL -p LIFCL-40 -t CABGA400 -sp 7_High-Performance_1.0V -oc Industrial -top -w -o CMOS_to_MIPI_impl_1_syn.udb CMOS_to_MIPI_impl_1.vm -ldc C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1/CMOS_to_MIPI_impl_1.ldc
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2.2.0.97.3
+Command Line: postsyn -a LIFCL -p LIFCL-40 -t CABGA400 -sp 7_High-Performance_1.0V -oc Industrial -top -w -o CMOS_to_MIPI_impl_1_syn.udb -ldc C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1/CMOS_to_MIPI_impl_1.ldc -gui -msgset C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/promote.xml CMOS_to_MIPI_impl_1.vm 
+   Architecture:     LIFCL
+   Device:           LIFCL-40
+   Package:          CABGA400
+   Performance:      7_High-Performance_1.0V
+Reading input file 'CMOS_to_MIPI_impl_1.vm' ...
+CPU Time to convert: 0.734375
+REAL Time to convert: 1
+convert PEAK Memory Usage: 92 MB
+convert CURRENT Memory Usage: 84 MB
+Reading constraint file 'C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1/CMOS_to_MIPI_impl_1.ldc' ...
+Removing unused logic...
+INFO - Instance GSR_INST.vhiInst is optimized away.INFO - Instance GSR_INST.vloInst is optimized away.INFO - Signal GSR_INST.vcc undriven or does not drive anything - clippedINFO - Signal GSR_INST.gnd undriven or does not drive anything - clippedINFO - Signal GSR_INST.GSROUT undriven or does not drive anything - clippedStarting design annotation....
+WARNING - No master clock for
+	generated clock	"create_generated_clock.WARNING - Missing master pin for instance 'MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx.DPHY_inst'.Writing output file 'CMOS_to_MIPI_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 112 MB
+
+
+timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1  -html -rpt "CMOS_to_MIPI_impl_1.tws" "CMOS_to_MIPI_impl_1_syn.udb" 
+timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -html -rpt CMOS_to_MIPI_impl_1.tws CMOS_to_MIPI_impl_1_syn.udb -gui
+Starting design reading...
+Initializing timer
+Starting design annotation....
+WARNING - No master clock for
+	generated clock	"create_generated_clock.WARNING - Missing master pin for instance 'MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx.DPHY_inst'.7_High-Performance_1.0V
+
+Starting full timing analysis...
+Loading device for application GENERIC from file 'je5d30.nph' in environment: C:/lscc/radiant/2.2/ispfpga.
+Package Status:                     Preliminary    Version 49.
+
+STA Runtime and Peak Memory Usage :
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 217 MB
+
+ 1.535067s wall, 1.078125s user + 0.437500s system = 1.515625s CPU (98.7%)
+

@@ -1,0 +1,23 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2.2.0.97.3
+Command Line: postsyn -a LIFCL -p LIFCL-40 -t CABGA400 -sp 7_High-Performance_1.0V -oc Industrial -top -w -o CMOS_to_MIPI_impl_1_syn.udb -ldc C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1/CMOS_to_MIPI_impl_1.ldc -gui -msgset C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/promote.xml CMOS_to_MIPI_impl_1.vm 
+   Architecture:     LIFCL
+   Device:           LIFCL-40
+   Package:          CABGA400
+   Performance:      7_High-Performance_1.0V
+Reading input file 'CMOS_to_MIPI_impl_1.vm' ...
+Reading constraint file 'C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/impl_1/CMOS_to_MIPI_impl_1.ldc' ...
+Removing unused logic...
+INFO - Instance GSR_INST.vhiInst is optimized away.
+INFO - Instance GSR_INST.vloInst is optimized away.
+INFO - Signal GSR_INST.vcc undriven or does not drive anything - clipped
+INFO - Signal GSR_INST.gnd undriven or does not drive anything - clipped
+INFO - Signal GSR_INST.GSROUT undriven or does not drive anything - clipped
+Starting design annotation....
+WARNING - No master clock for
+	generated clock	create_generated_clock -name {byte_clk} -source [get_pins {secured_pin_25_12_3}] -multiply_by 82 -divide_by 77 [get_pins {secured_pin_25_12_630 }] .
+WARNING - Missing master pin for instance 'MIXEL_HARD_IP.CIL_BYPASSED_DPHY.u_DPHY_NO_CIL_tx.DPHY_inst'.
+Writing output file 'CMOS_to_MIPI_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 112 MB

@@ -1,0 +1,4 @@
+#Start recording tcl command: 6/21/2021 10:33:36
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+#Stop recording: 6/21/2021 12:08:30

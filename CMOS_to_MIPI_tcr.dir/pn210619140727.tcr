@@ -1,0 +1,22 @@
+#Start recording tcl command: 6/16/2021 16:09:45
+#Project Location: C:/code/fw_fpga_sensor_if/CMOS_to_MIPI; Project name: CMOS_to_MIPI
+C:/code/fw_fpga_sensor_if/tx_dphy_ip_test
+tx_dphy_ip_test
+#Start recording tcl command: 6/19/2021 14:07:27
+#Project Location: C:/code/fw_fpga_sensor_if/tx_dphy_ip_test; Project name: tx_dphy_ip_test
+prj_open "C:/code/fw_fpga_sensor_if/CMOS_to_MIPI/CMOS_to_MIPI.rdf"
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_save 
+prj_close
+prj_create -name "tx_dphy_ip_test" -impl "impl_1" -dev LIFCL-40-7BG400I -performance "7_High-Performance_1.0V" -synthesis "lse"
+prj_save 
+#Stop recording: 6/19/2021 14:07:27
